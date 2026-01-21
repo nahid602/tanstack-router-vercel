@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+body {
+  background-color: hsl(50, 11%, 2%);
+  color: hsl(19, 56%, 89%);
+  font-size: 24px;
+}
+
+form {
+  margin: 0 auto;
+  width: 20%;
+}
+form div input {
+  background-color: hsl(50, 11%, 30%);
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+}
+
+form button {
+  color: hsl(148, 92%, 44%);
+}
